@@ -14,6 +14,9 @@ Running tests
 
 npx playwright codegen
 
-npx playwright codegen --browser firefox                       : record on a specific browser(default: chromium)
-npx playwright codegen --target javascript -o record_example.js: record and save to a file
-npx playwright codegen --viewport-size=800,600                 : set viewport - screen resolution(size)
+1. npx playwright codegen --browser firefox                       : record on a specific browser(default: chromium)
+2. npx playwright codegen --target javascript -o record_example.js: record and save to a file
+3. npx playwright codegen --viewport-size=800,600                 : set viewport - screen resolution(size)
+4. npx playwright codegen --device="iPhone11"                     : emulate devices
+5. npx playwright codegen --color-scheme=dark                     : emulate color scheme (if available on the website)
+6. npx playwright codegen --help                                  : see all options
