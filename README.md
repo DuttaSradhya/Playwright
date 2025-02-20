@@ -11,3 +11,9 @@ Running tests
 9. npx playwright test --debug                     : debug tests ; npx playwright test --project=chromium --debug (by default runs in headed mode)
 10. npx playwright test examp.spec.js --debug      : debug specific test file
 11. npx playwright test examp.spec.js:21 --debug   : debug starting from specific line where test(..) starts
+
+npx playwright codegen
+
+npx playwright codegen --browser firefox                       : record on a specific browser(default: chromium)
+npx playwright codegen --target javascript -o record_example.js: record and save to a file
+npx playwright codegen --viewport-size=800,600                 : set viewport - screen resolution(size)
